@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page of [Your Name]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #0073e6;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>[Your Name]</h1>
+        <p>Welcome to my personal page</p>
+    </header>
+    <div class="container">
+        <section id="biography">
+            <h2>Biography</h2>
+            <p>
+                <!-- Insert your biography text from ORCID -->
+                [Your biography text from your ORCID profile]
+            </p>
+            <p>For more details, visit my ORCID profile: <a href="https://orcid.org/0000-0003-3077-6240">My ORCID</a></p>
+        </section>
+        <!-- Add more sections as needed, like projects, publications, etc. -->
+    </div>
+    <footer>
+        &copy; 2024 [Your Name]. All rights reserved.
+    </footer>
+</body>
+</html>
